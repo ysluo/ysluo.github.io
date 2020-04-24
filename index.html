@@ -12,7 +12,9 @@
     <div class="centered">       
         <h1 style="text-align:center">AI Skin Wound iOS Client APP</h1>
         <p style="text-align:center">(Requires iOS 13.0+)</p>
-        <img class="center" src="qrcode.png">
+        <a href="itms-services://?action=download-manifest&url=https://ysluo.github.io/manifest.plist">
+            <img class="center" src="qrcode.png">
+        </a>
         <br>
         <a id="download" href="itms-services://?action=download-manifest&url=https://ysluo.github.io/manifest.plist"> Download</a>
     </div>  
@@ -22,7 +24,8 @@
     <script>
         $(document).ready(function()
         {                                    
-            $('#download').click();            
+            var href = $('#download').attr('href');
+            window.location.href = href;
         });
     </script>
 </body>
