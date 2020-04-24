@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://www.dropbox.com/s/z42u95adsnhhcz9/image_small.png</string>
+					<string>https://ysluo.github.io/image_small.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://www.dropbox.com/s/g86wtdbhda6nroy/image_large.png</string>
+					<string>https://ysluo.github.io/image_large.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
