@@ -1,33 +1,402 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <title>AI Skin Wound iOS APP</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Ying-Sheng Luo</title>
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+	<!-- Vendor CSS Files -->
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+	<!-- Template Main CSS File -->
+	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="centered">       
-        <h1 style="text-align:center">AI Skin Wound iOS Client APP</h1>
-        <p style="text-align:center">(Requires iOS 13.0+)</p>
-        <a href="itms-services://?action=download-manifest&url=https://ysluo.github.io/manifest.plist">
-            <img class="center" src="qrcode.png">
-        </a>
-        <br>
-        <a id="download" href="itms-services://?action=download-manifest&url=https://ysluo.github.io/manifest.plist"> Download</a>
-    </div>  
-    <div class="footer">        
-        <p>Copyright &copy; 2020 Inventec Corp. All Rights Reserved.</p>
-    </div>
-    <script>
-        $(document).ready(function()
-        {                                    
-            var href = $('#download').attr('href');
-            window.location.href = href;
-        });
-    </script>
+
+	<!-- ======= Mobile nav toggle button ======= -->
+	<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+	<!-- ======= Header ======= -->
+	<header id="header">
+		<div class="d-flex flex-column">
+
+			<div class="profile">
+				<img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle border-4">
+				<h1 class="text-light"><a href="index.html">Ying-Sheng Luo</a></h1>
+				<p class="text-light text-center my-1">tray307969@gmail.com</p>
+				<div class="social-links mt-3 text-center">
+					<a href="https://www.facebook.com/profile.php?id=100000486708636" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+					<a href="https://www.linkedin.com/in/ying-sheng-luo-14156b147/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+					<!-- <a href="https://github.com/ysluo?tab=repositories" class="github" target="_blank"><i class="bx bxl-github"></i></a> -->
+					<a href="https://www.youtube.com/channel/UCH0089Zz98l5g4AVL3qectw" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
+				</div>
+			</div>
+
+			<nav id="navbar" class="nav-menu navbar">
+				<ul>
+					<li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+					<li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+					<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+					<li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-file"></i> <span>Publications</span></a></li>
+					<li><a href="#piano" class="nav-link scrollto"><i class="bx bxs-music"></i> <span>Piano Videos</span></a></li>
+				</ul>
+			</nav><!-- .nav-menu -->
+		</div>
+	</header><!-- End Header -->
+
+	<main id="main">
+
+		<!-- ======= Hero Section ======= -->
+		<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+			<!-- https://jsfiddle.net/ohepworthbell/k72hbytr/ -->
+			<div class="video-background">
+				<div class="overlay"></div>
+				<iframe src="https://streamable.com/e/c6jvdz?autoplay=1&nocontrols=1" frameborder="0" width="100%" height="100%" 
+						allowfullscreen allow="autoplay">
+				</iframe>
+			</div>
+			<div class="hero-container" data-aos="fade-in">
+				<h1 class="text-center">Ying-Sheng Luo</h1>
+				<p>I use Computer Graphics for <span class="typed" data-typed-items="AI Research, Game Development, Reinforcement Learning"></span></p>
+			</div>
+		</section><!-- End Hero -->
+
+		<!-- ======= About Section ======= -->
+		<section id="about" class="about">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>About</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4" data-aos="fade-right">
+						<img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+						<h3>Ying-Sheng Luo</h3>
+						<p>
+							I'm currently a research engineer from Inventec Corp., a world-leading computer and electronics manufacturer with more than 16 billion USD annual revenue. 
+							At Inventec AI Center, I focus on improving its manufacturing processes and pushing its technological advancements through deep learning algorithms.
+						</p>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul>
+									<li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+886-912-378590</span></li>
+									<li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tray307969@gmail.com</span></li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<ul>
+									<li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Taipei, Taiwan</span></li>
+									<li><i class="bi bi-chevron-right"></i> <strong>Language:</strong> <span>English, Chinese (Native)</span></li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							I received my M.Sc in Computer Science from the National Taiwan University of Science and Technology (2018), advised by Professor <a href="https://ntust-ddrc.com/member/detail/2" target="_blank">Yu-Chi Lai</a>.
+							My work lies in the intersection between computer graphics and machine learning, with a focus on reinforcement learning for motion control of simulated characters and real-time rendering.
+						</p>
+						<p>
+							I'm also a computer graphics enthusiast and like to apply computer graphics knowledge I've learned in my other hobbies &amp; side projects. 
+							There are <a href="#piano">examples</a> from my piano cover videos where I seamlessly added 3D virtual objects with convincing lighting and reflections to make the video more interesting.
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- End About Section -->
+
+		<!-- ======= Resume Section ======= -->
+		<section id="resume" class="resume section-bg">
+			<div class="container">
+
+				<div class="section-title pb-0">
+					<h2>Resume [<a href="assets/ysluo_resume.pdf" target="_blank">PDF</a>]</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6" data-aos="fade-up">
+
+						<h3 class="resume-title">Education</h3>
+						<div class="resume-item">
+							<h4>Master of Computer Science</h4>
+							<h5>Sep 2016 - June 2018</h5>
+							<p><em>National Taiwan University of Science and Technology, Taipei, Taiwan</em></p>
+							<ul>
+								<li>Thesis: Intuitive and Easily-Installed Fenestration and Light Control Framework</li>
+								<li>Implemented precomputed radiance transfer method to estimate global illumination</li>
+								<li>Graduated with X out of 4.0 GPA</li>
+							</ul>
+						</div>
+						<div class="resume-item">
+							<h4>Bachelor of Computer Science</h4>
+							<h5>Sep 2013 - June 2016</h5>
+							<p><em>National Taiwan University of Science and Technology, Taipei, Taiwan</em></p>
+							<ul>
+								<li>Ranked 1 in undergrde class</li>
+								<li>Received presidential award</li>
+								<li>Graduated with X out of 4.0 GPA</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+						<h3 class="resume-title">Work Experience</h3>
+						<div class="resume-item">
+							<h4>Research Engineer</h4>
+							<h5>July 2018 - Present</h5>
+							<p><em>Inventec Corp., Taiwan</em></p>
+							<ul>
+								<li>Invent the transition motion tensor to enable controllable and versatile character movements in physics-enabled simulation</li>
+								<li>Design a controller for simulated characters using Deep-RL and GAN such that the character produces natural movements while obeying high-level user directives</li>
+								<li>Research and deploy state-of-the-art deep learning solutions for internal business units; 4 issued and pending patents</li>
+								<li>Build an iOS APP and backend Restful API server with Kafka job queues to deploy the AI medical product. The medical iOS APP passed the security certificate licensed by <a href="https://www.gapertise.com/" target="_blank">Gapertise</a></li>
+							</ul>
+						</div>
+						<div class="resume-item">
+							<h4>Graphics Engineer Intern</h4>
+							<h5>June 2015 - Sep 2015</h5>
+							<p><em>International Games System Corp., Taiwan</em></p>
+							<ul>
+								<li>Developed VFX effects using GLSL in a mobile car racing game</li>
+								<li>Implemented color grading, dynamic clouds, lightmaps, and HDR cubemap using GLSL and Cocos2d</li>
+								<li>Explored GPU performance analysis tool to improve rendering performance on mobile devices</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- End Resume Section -->
+
+		<!-- ======= Portfolio Section ======= -->
+		<section id="portfolio" class="portfolio">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>Publications</h2>
+				</div>
+
+				<div class="row mb-4" data-aos="fade-up">
+					<div class="col-lg-3">
+						<img src="assets/img/projects/tmt-sa2021-thumb.webp" style="width: 100%;" title="">
+					</div>
+					<div class="col-lg-8" style="text-align:left;">
+						<h4>Transition Motion Tensor: A Data-Driven Approach for Versatile and Controllable Agents in Physically Simulated Environments</h4>
+						<h5>SIGGRAPH Asia 2021 - Technical Communications</h5>
+						<p class="authors mb-1">
+							Jonathan Hans Soeseno*, <b>Ying-Sheng Luo*</b>, Trista Pei-Chun Chen, Wei-Chao Chen
+						</p>
+						<p>(*Joint first authors)</p>
+						<p>
+							[<a href="https://dl.acm.org/doi/abs/10.1145/3478512.3488599" target="_blank">Paper</a>]
+							[<a href="https://github.com/inventec-ai-center/transition_motion_tensor" target="_blank">Code</a>]
+							[<a href="https://youtu.be/9NzRSZyAOiY" target="_blank">Supplementary Video</a>]
+						</p>
+					</div>
+				</div>
+
+				<div class="row mb-4" data-aos="fade-up">
+					<div class="col-lg-3">
+						<img src="assets/img/projects/carl-siggraph2020-thumb.webp" style="width: 100%;" title="">
+					</div>
+					<div class="col-lg-8" style="text-align:left;">
+						<h4>CARL: Controllable Agent with Reinforcement Learning for Quadruped Locomotion</h4>
+						<h5>ACM Transactions on Graphics (SIGGRAPH 2020)</h5>
+						<p class="authors mb-1">
+							<b>Ying-Sheng Luo*</b>, Jonathan Hans Soeseno*, Trista Pei-Chun Chen, Wei-Chao Chen
+						</p>
+						<p>(*Joint first authors)</p>
+						<p>
+							[<a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392433" target="_blank">Paper</a>]
+							[<a href="https://github.com/inventec-ai-center/carl-siggraph2020" target="_blank">Code</a>]
+							[<a href="https://youtu.be/t9CdF_Pl19Q" target="_blank">Supplementary Video</a>]
+							[<a href="https://youtu.be/qwAiLBPEt_k" target="_blank">Two Minute Papers Video</a>]
+							[<a href="https://youtu.be/jYdMKdRUq_8?t=103" target="_blank">SIGGRAPH 2020 Paper Preview</a>]
+						</p>
+					</div>
+				</div>
+
+				<div class="row mb-4" data-aos="fade-up">
+					<div class="col-lg-3">
+						<img src="assets/img/projects/pailou-cgf2020.jpg" style="width: 100%;" title="">
+					</div>
+					<div class="col-lg-8" style="text-align:left;">
+						<h4>Interactive Iconized Grammar-Based Pailou Modelling</h4>
+						<h5>Computer Graphics Forum</h5>
+						<p class="authors">Zhong-Qi Cai, <b>Ying-Sheng Luo</b>, Yu-Chi Lai, Chih-Shiang Chan, Wen-Kai Tai</p>
+						<p>
+							[<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13661" target="_blank">Paper</a>]
+							<!-- [<a href="http://graphics.csie.ntust.edu.tw/pub/PailouModeling/" target="_blank">Supplementary Video</a>] -->
+						</p>
+					</div>
+				</div>
+
+				<div class="row mb-4" data-aos="fade-up">
+					<div class="col-lg-3">
+						<img src="assets/img/projects/tps-tmm2020.jpg" style="width: 100%;" title="">
+					</div>
+					<div class="col-lg-8" style="text-align:left;">
+						<h4>Image Vectorization With Real-Time Thin-Plate Spline</h4>
+						<h5>IEEE Transactions on Multimedia</h5>
+						<p class="authors">Kuo-Wei Chen, <b>Ying-Sheng Luo</b>, Yu-Chi Lai, Yan-Lin Chen, Chih-Yuan Yao, Hung-Kuo Chu, Tong-Yee Lee</p>
+						<p>
+							[<a href="https://ieeexplore.ieee.org/document/8734892" target="_blank">Paper</a>]
+							<!-- [<a href="http://graphics.csie.ntust.edu.tw/pub/RealTimeTPS/" target="_blank">Supplementary Video</a>] -->
+						</p>
+					</div>
+				</div>
+
+				<div class="row mb-4" data-aos="fade-up">
+					<div class="col-lg-2">
+						<img src="assets/img/projects/shaderbook-2018.webp" style="width: 100%;" title="">
+					</div>
+					<div class="col-lg-8" style="text-align:left;">
+						<h4 class="mb-1">OpenGL 3D 繪圖互動程式設計</h4>
+						<h6 class="mb-3">OpenGL 3D real-time rendering programming</h6>
+						<p class="mb-1">Publisher: Flag Technology Corp.,Ltd</p>
+						<p class="mb-1">Publish Date: Aug 31, 2018</p>
+						<p class="mb-3">ISBN-13: 9789863125112</p>
+						<p class="mb-3">Author of Chapter 13. Advanced Rendering Techniques and Chapter 16. Post-Processing Effects</p>
+						<p>
+							[<a href="https://www.books.com.tw/products/0010797474" target="_blank">博客來</a>]
+							[<a href="https://www.flag.com.tw/books/product/FT755" target="_blank">旗標</a>]
+						</p>
+					</div>
+				</div>
+
+				<div class="row mb-4" data-aos="fade-up">
+					<div class="col-lg-2">
+						<img src="assets/img/projects/unitybook-2016.jpg" style="width: 100%;" title="">
+					</div>
+					<div class="col-lg-8" style="text-align:left;">
+						<h4 class="mb-1">人氣遊戲這樣做！Unity3D 遊戲設計實例講堂 第二版</h4>
+						<h6 class="mb-3">Popular games do this! Unity3D Game Design Example Lecture 2nd Edition</h6>
+						<p class="mb-1">Publisher: Flag Technology Corp.,Ltd</p>
+						<p class="mb-1">Publish Date: Aug 1, 2016</p>
+						<p class="mb-3">ISBN-13: 9789863123552</p>
+						<p class="mb-3">Author of Chapter 4. Character Animation</p>
+						<p>
+							[<a href="https://www.books.com.tw/products/0010723988" target="_blank">博客來</a>]
+							[<a href="https://www.flag.com.tw/books/product/F8795A" target="_blank">旗標</a>]
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- ======= End Portfolio Section ======= -->
+
+		<!-- ======= Piano Section ======= -->
+		<section id="piano" class="piano section-bg">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>Piano Videos</h2>
+					<p>One of my hobby is playing the piano where I stared learning since 2019. Here are some of my piano videos.</p>
+				</div>
+
+				<div class="row piano-container" data-aos="fade-up" data-aos-delay="100">
+
+					<!-- Piano Progress Summary 2022.01.22 - 春天華爾滋 Spring Waltz -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/RxaSzrpDk4U" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<!-- Piano Progress Summary 2022.01.01 - 去年聖誕節 Last Christmas -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/m6lgkrFPmRk" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<!-- Piano Progress Summary 2021.10.15 - Yiruma 「雨的印記 Kiss the Rain」 -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/8mAOtXeueWo" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<!-- Piano Progress Summary 2021.02.19 - 魔法公主 阿席達卡與小桑/Ashitaka and San -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/cHUQ-_EfVN8" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<!-- Piano Progress Summary 2021.09.05 - 四月是你的謊言 OST 「私の噓 Watashi no Uso」 -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/_9uxCcmFYuQ" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<!-- Piano Progress Summary 2021.01.03 - 鬼滅之刃「竈門炭治郎のうた」 -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/hi1c5LaN5G0" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<!-- 理查克萊德曼 - 夢中的婚禮 / Mariage d'amour by Richard Clayderman -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/v2P22y_yR6M" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<!-- Piano Progress Summary 2020.10.15 - To the moon For River (Johnny's Version) -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/Xq2PVeJBwpI" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<!-- Piano Progress Summary 2020.11.11 - 童話 -->
+					<div class="col-lg-4 col-md-6 piano-item ratio ratio-16x9 px-0 mx-2" data-aos="fade-up">
+						<iframe class="lazyload" data-src="https://www.youtube.com/embed/j9pwLH6dfHg" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+				</div>
+
+			</div>
+		</section><!-- End Piano Section -->
+
+	</main><!-- End #main -->
+
+	<!-- ======= Footer ======= -->
+	<footer id="footer">
+		<div class="container">
+			<div class="copyright">
+				&copy; Copyright <strong><span>Ying-Sheng Luo</span></strong>
+			</div>
+			<div class="credits">
+				<!-- All the links in the footer should remain intact. -->
+				<!-- You can delete the links only if you purchased the pro version. -->
+				<!-- Licensing information: https://bootstrapmade.com/license/ -->
+				<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+				Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+			</div>
+		</div>
+	</footer><!-- End  Footer -->
+
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+	<!-- Vendor JS Files -->
+	<script src="assets/vendor/purecounter/purecounter.js"></script>
+	<script src="assets/vendor/aos/aos.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+	<script src="assets/vendor/typed.js/typed.min.js"></script>
+	<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+	<script src="assets/vendor/lazysizes/lazysizes.min.js" async=""></script>
+
+	<!-- Template Main JS File -->
+	<script src="assets/js/main.js"></script>
 </body>
 
 </html>
