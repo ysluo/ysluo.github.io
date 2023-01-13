@@ -253,12 +253,12 @@
 		})
 	});
 
+	var lazyLoadInstance = new LazyLoad({
+		// Your custom settings go here
+	});
+
 	/**
 	 * Initiate Pure Counter 
 	 */
 	new PureCounter();
-
-	var lazyLoadInstance = new LazyLoad({
-		// Your custom settings go here
-	});
 })()
